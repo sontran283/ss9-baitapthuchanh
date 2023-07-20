@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- bai 1 -->
+    <!-- bai 1 -->
+    <!-- <h3>Bài 1: Viết chương trình nhập vào số tuổi của 1 người.Nếu số tuổi người đó >=18 tuổi , hiển thị thông báo trên
+        18 tuổi
+        ngược lại bạn chưa đủ 18 tuổi!</h3>
+    <script>
+        let age = +prompt("bai 1-nhap so tuoi cua ban...");
+        if (age >= 18) {
+            document.write("ban da du tuoi vi thanh nien")
+        } else if (age <= 18) {
+            document.write("ban chua du 18 tuoi")
+        }
+    </script> -->
+
+
+
+    <!-- bai 2 -->
+    <!-- bai 2 -->
+    <!-- <h3>Bài 2: Viết chương trình cho phép người dùng nhập vào số giờ trong ngày.</h3>
+    <p>Nếu dưới 18h thì hiển thị : “Good day”.</p>
+    <p>Nếu trên 18h thì hiển thị : “Good evening”.</p>
+    <script>
+        let time = +prompt("bai 2-hay nhap so gio");
+        if (time < 18) {
+            document.write("Good day", "  ")
+        } else if (time > 18) {
+            document.write("Good evening", "  ")
+        }
+    </script> -->
+
+
+
+    <!-- bai 3 -->
+    <!-- bai 3 -->
+    <!-- <h3>Bài 3: Viết chương trình cho phép người dùng nhập vào số giờ trong ngày.</h3>
+    <p>Nếu trước 10h thì hiển thị : “Good morning”.</p>
+    <p>Nếu thời gian chưa tới 20h thì hiển thị : “Good day”.</p>
+    <p>Nếu sau 20h hiển thị : “Good evening”.</p>
+    <script>
+        let timee = +prompt("bai 3-hay nhap so gio");
+        if (timee < 10) {
+            document.write("Good morning", "  ")
+        } else if (timee <= 20) {
+            document.write("Good day", "  ")
+        } else if (timee <= 24) {
+            document.write("Good evening", "  ")
+        } else {
+            document.write(`ko dung`)
+        }
+    </script> -->
+
+
+
+    <!-- bai 4 -->
+    <!-- bai 4 -->
+    <!-- <h3>Bài 4: Viết chương trình cho phép người dùng nhập vào 1 số.</h3>
+    <p>Kiểm tra xem số nhập vào là số chẵn hay số lẻ (sử dụng câu điều kiện if-else).</p>
+    <script>
+        let number = +prompt("bai 4-hay nhap mot so bat ki")
+        if (number % 2 == 0) {
+            document.write("day la so chan")
+        } else if (number % 2 !== 0)
+            document.write("day la so le")
+    </script> -->
+
+
+
+    <!-- bai 5 -->
+    <!-- bai 5 -->
+    <!-- <h3>Bài 5: Viết chương trình cho phép người dùng nhập vào 1 số.</h3>
+    <p>Kiểm tra xem số nhập vào là số chẵn hay số lẻ (sử dụng switch case).</p>
+    <script>
+        let number2 = +prompt("hay nhap vao mot so")
+        switch (number2 % 2) {
+            case 1:
+                document.write("day la so le")
+                break;
+            case 0:
+                document.write("day la so chan")
+                break;
+            default:
+                document.write("khong hop le")
+        }
+    </script> -->
+
+
+
+    <!-- bai 6 -->
+    <!-- bai 6 -->
+    <!-- <h3>Bài 6: Viết chương trình cho phép người dùng nhập màu vào kiểm tra.</h3>
+    <p>Nếu nhập 1 trong các màu : xanh, đỏ,vàng thì hiển thị màu người dùng nhập</p>
+    <p>Nếu nhập màu khác hiển thị màu không hợp lệ!</p>
+    <script>
+        let color = prompt("bai 6-hay nhap mau sac");
+        switch (color) {
+            case "green":
+                document.write(" màu người dùng nhập")
+                break;
+            case "red":
+                document.write(" màu người dùng nhập")
+                break;
+            case "yellow":
+                document.write(" màu người dùng nhập")
+                break;
+            default:
+                document.write("khong hop le")
+        }
+    </script> -->
+
+
+
+    <!-- bai 7 -->
+    <!-- bai 7 -->
+    <!-- <h3>Bài 7: Viết chương trình cho phép người dùng nhập vào số nguyên x:</h3>
+    <p>Nếu x==0 thì in ra x có giá trị là 0;</p>
+    <p>Nếu x>0 thì in ra x là số nguyên dương.</p>
+    <p>Nếu x<0 thì in ra x là số nguyên âm.</p>
+            <script>
+                let x = prompt("bai 7-hay nhap vao mot so")
+                if (x == 0) {
+                    document.write("x có giá trị là 0")
+                } else if (x > 0) {
+                    document.write(" x là số nguyên dương")
+                } else if (x < 0) {
+                    document.write(" x là số nguyên âm")
+                }
+            </script> -->
+
+
+
+    <!--  bai 8 -->
+    <!--  bai 8 -->
+    <!-- <h3>Bài 8: Tính chỉ số cân nặng BMI :</h3>
+    <p>Viết chương trình cho phép người dùng nhập vào cân nặng(kg) và chiều cao(m);
+        Sau đó hiển thị kết quả phân loại theo chỉ số BMI dưới đây.</p>
+    <script>
+        let weight = +prompt("Nhập vào cân nặng của bạn (kg)");
+        let height = +prompt("Nhập vào chiều cao của bạn (m)");
+        let bmi = weight / (height * height);
+
+/        if (bmi < 18.5) {
+            document.write("Gầy");
+        } else if (bmi < 25) {
+            document.write("Bình thường");
+        } else if (bmi < 30) {
+            document.write("Tiền béo phì")
+        } else if (bmi < 35) {
+            document.write("béo phì cấp  độ 1");
+        } else if (bmi < 40) {
+            document.write("béo phì cấp  độ 2");
+        } else {
+            document.write("béo phì cấp  độ 3");
+        }
+    </script> -->
+
+
+
+    <!-- bai 9 -->
+    <!-- bai 9 -->
+    <!-- <h3>Bài 9: Viết chương trình cho phép người dùng nhập điểm các môn:Toán,Lí,Hoá,
+        Văn, Sử , Địa (thang điểm 10);</h3>
+    <div>
+        <p>Sau đó tính điểm trung bình các môn học,Hiển thị kết quả học tập theo loại như sau:</p>
+        <p>8.0 <=ĐTB<=10: xếp loại GIỎI. </p>
+                <p>6.5<=ĐTB<=7.9: xếp loại KHÁ.</p>
+                        <p>5.0<=ĐTB<=6.4: xếp loại TRUNG BÌNH.</p>
+                                <p>ĐTB<5.0 : xếp loại YẾU.</p>
+
+    </div>
+    <script>
+        let toan = +prompt("nhap diem mon toan");
+        let ly = +prompt("nhap diem mon ly");
+        let hoa = +prompt("nhap diem mon hoa");
+        let van = +prompt("nhap diem mon van");
+        let su = +prompt("nhap diem mon su");
+        let dia = +prompt("nhap diem mon dia");
+        let total = (+toan + ly + hoa + van + su + dia) / 6;
+        document.write("diem trung binh cac mon", total)
+
+        if (total >= 8.0 && total <= 10) {
+            document.write("hoc sinh gioi")
+        } else if (total >= 7.0) {
+            document.write("hoc sinh kha")
+        } else if (total >= 6.5) {
+            document.write("hoc sinh trung binh")
+        } else if (total >= 5.0)
+            document.write("hoc sinh yeu")
+    </script>
+ -->
+
+
+    <!-- bai 10 -->
+    <!-- bai 10 -->
+    <!-- <h3>Bài 10: Viết chương trình nhập vào số tháng trong năm,in ra số ngày trong tháng đó.</h3>
+    <p>Ví dụ : Người dùng nhập vào số 7 thì in ra tháng 7 có 31 ngày.</p>
+    <script>
+        let month = +prompt("nhap so thang bat ky");
+        switch (month) {
+            case 1:
+                document.write("tháng 1 có 30 ngay")
+                break;
+            case 2:
+                document.write("tháng 2 có 28 ngay")
+                break;
+            case 3:
+                document.write("tháng 3 có 30 ngay")
+                break;
+            case 4:
+                document.write("tháng 4 có 30 ngay")
+                break;
+            case 5:
+                document.write("tháng 5 có 30 ngay")
+                break;
+            case 6:
+                document.write("tháng 6 có 30 ngay")
+                break;
+            case 7:
+                document.write("tháng 7 có 31 ngày")
+                break;
+            case 8:
+                document.write("tháng 8 có 30 ngay")
+                break;
+            case 9:
+                document.write("tháng 9 có 30 ngay")
+                break;
+            case 10:
+                document.write("tháng 10 có 30 ngay")
+                break;
+            case 11:
+                document.write("tháng 11 có 31 ngay")
+                break;
+            case 12:
+                document.write("tháng 12 có 30 ngay")
+                break;
+            default:
+                console.warn("nhap khong hop le")  //mau vang
+                console.error("nhap khong hop le")  //mau do
+        }
+    </script> -->
+</body>
+
+</html>

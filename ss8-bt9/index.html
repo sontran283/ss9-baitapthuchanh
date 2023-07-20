@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //bai tap 9___tim min max
+        //bai tap 9___tim min max
+
+        let a = +prompt("Nhập vào số a ");
+        let b = +prompt("Nhập vào số b ");
+        let c = +prompt("Nhập vào số c ");
+
+        // tim max
+        if (a > b && a > c) {
+            document.write("Giá trị lớn nhất là a");
+        } else {
+            if (b < c) {
+                document.write("Giá trị lớn nhất là b");
+            } else {
+                document.write("Giá trị lớn nhất là c");
+            }
+        }
+
+        // tim min
+        if (!(a > b && a > c)) {
+            document.write("Giá trị nho nhat là a");
+        } else {
+            if (b < c) {
+                document.write("Giá trị nho nhat là b");
+            } else {
+                document.write("Giá trị nho nhat là c");
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
